@@ -1,0 +1,64 @@
+/* We can use CSS sheets to modify our labels, buttons, and input boxs, plus more */
+
+/* Main/Formal Cascading Sheet Styles Syntax -->
+
+   #h1 { Property : Value; }
+    |
+    V
+   Selector 
+
+   #TitleButton{ 
+        color : red;
+        font-size : 100px;
+   }
+
+*/
+
+#CountLabel{ 
+    display: block;
+    text-align: left;
+    font-size: 50px;
+}
+
+#myDiv{
+    text-align: center;
+    background-color : lightgreen;
+    width : 148px;
+    height: 20px;
+}
+
+#innerDiv{
+    text-align: center;
+    background-color : lightblue;
+    width : 200px;
+    height: 20px;
+    border: 1.5px solid;
+    margin-left: 100px;
+}
+
+#outerDiv{
+    background-color : lightgray;
+    width : 400px;
+    height: 65px;
+    border: 1.5px solid;
+}
+
+#myImg{
+    width : 300px;
+}
+
+#aDiv{
+    background-color : lightgreen;
+    width : 50px;
+    height : 50px;
+    border : 1px solid;
+    position : relative;
+}
+
+#otherDiv{
+    background-color : lightblue;
+    width : 30px;
+    height : 30px;
+    border : 1px solid;
+    position : relative;
+}
